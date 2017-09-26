@@ -5,7 +5,8 @@
     {
       "name": "Find All Instances of Symbol",
       "identifier": "find-all-instances",
-      "script": "./main.js"
+      "script": "./main.js",
+      "shortcut": "cmd shift f"
     }
   ],
   "menu": {
