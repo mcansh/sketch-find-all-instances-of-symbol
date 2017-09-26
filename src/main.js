@@ -46,7 +46,7 @@ const onRun = (context) => {
   }
 
   const alert = COSAlertWindow.new();
-  alert.setMessageText('Pages with this symbol');
+  alert.setMessageText(`Pages with ${selectedLayerName}`);
   const choosePropertySelect = createSelect(pagesWithSymbolNames, 0);
   alert.addAccessoryView(choosePropertySelect);
   alert.addButtonWithTitle('Go');
