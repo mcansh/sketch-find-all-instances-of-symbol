@@ -32,7 +32,6 @@ const onRun = (context) => {
       artboards.forEach((artboard) => {
         const layers = artboard.layers();
         layers.forEach((layer) => {
-          const layerName = layer.name();
           if (
             layer instanceof MSSymbolInstance &&
             layer.isInstanceForMaster(masterSymbol)
@@ -52,7 +51,7 @@ const onRun = (context) => {
   alert.addButtonWithTitle('Go');
   alert.addButtonWithTitle('Cancel');
   if (alert.runModal() === 1000) {
-    const uniquePages = pagesWithSymbol.filter((elem, index, self) => index === self.indexOf(elem),);
+    const uniquePages = pagesWithSymbol.filter((elem, index, self) => index === self.indexOf(elem));
     const index = choosePropertySelect.indexOfSelectedItem();
     const page = uniquePages[index];
     doc.setCurrentPage(page);
