@@ -20,8 +20,6 @@ const selectAllSymbols = (page, masterSymbol) => {
     });
   });
 
-  console.log(layersToSelect);
-
   page.changeSelectionBySelectingLayers(layersToSelect);
 };
 
