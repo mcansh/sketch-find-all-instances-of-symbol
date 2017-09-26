@@ -1,0 +1,24 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Find All Instances of Symbol",
+      "identifier": "find-all-instances",
+      "script": "main.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "find-all-instances"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "Find all instances of a symbol in Sketch",
+  "name": "sketch-find-all-instances-of-symbol",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Logan McAnsh",
+  "email": "logan@mcan.sh"
+}

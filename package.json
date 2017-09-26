@@ -1,0 +1,23 @@
+{
+  "name": "sketch-find-all-instances-of-symbol",
+  "version": "1.0.0",
+  "description": "Find all instances of a symbol in Sketch",
+  "scripts": {
+    "build": "skpm build",
+    "watch": "skpm build --watch",
+    "publish": "skpm publish",
+    "link": "skpm link"
+  },
+  "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
+  "license": "MIT",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "devDependencies": {
+    "skpm": "^0.10.5"
+  },
+  "skpm": {
+    "manifest": "src/manifest.json",
+    "main": "Find Instances.sketchplugin"
+  }
+}
