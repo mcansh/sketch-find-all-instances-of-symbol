@@ -18,7 +18,8 @@
   },
   "skpm": {
     "manifest": "src/manifest.json",
-    "main": "Find Instances.sketchplugin"
+    "main": "Find Instances.sketchplugin",
+    "appcast": "https://sketch-plugins.loganmcansh.com/find-instances"
   },
   "main": "index.js",
   "repository": "git@github.com:mcansh/sketch-find-all-instances-of-symbol.git"
