@@ -48,7 +48,7 @@ const onRun = (context) => {
   alert.setMessageText(`Pages with ${selectedLayerName}`);
   const choosePropertySelect = createSelect(pagesWithSymbolNames, 0);
   alert.addAccessoryView(choosePropertySelect);
-  alert.addButtonWithTitle('Go');
+  alert.addButtonWithTitle('Find Instances');
   alert.addButtonWithTitle('Cancel');
   if (alert.runModal() === 1000) {
     const uniquePages = pagesWithSymbol.filter((elem, index, self) => index === self.indexOf(elem));
