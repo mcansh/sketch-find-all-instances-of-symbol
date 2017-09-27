@@ -1,6 +1,6 @@
 {
   "name": "sketch-find-all-instances-of-symbol",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find all instances of a symbol in Sketch",
   "scripts": {
     "build": "skpm build",
