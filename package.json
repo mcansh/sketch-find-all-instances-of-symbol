@@ -14,7 +14,7 @@
     "sketch": ">=3.0"
   },
   "devDependencies": {
-    "skpm": "^0.10.5"
+    "skpm": "^1.0.12"
   },
   "skpm": {
     "manifest": "src/manifest.json",
